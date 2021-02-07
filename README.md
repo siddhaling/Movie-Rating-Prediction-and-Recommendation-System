@@ -1,7 +1,7 @@
 # Movie-Rating-Prediction-and-Recommendation-System
 
 
-## This project was carried out by talented students under my guidance (Saifali Gulamabbas Patel, Rinaldi James Michael and	Syed Muddassir Ahmed)
+### This project was carried out by talented students under my guidance (Saifali Gulamabbas Patel, Rinaldi James Michael and Syed Muddassir Ahmed)
 
 A Recommender System is the most profitable solution for an organization that caters to a number of users having a number of options. As the name suggests, the system uses algorithms to recommend content (videos, advertisements, news etc.) to an individual based on his/her usage. There are several ways to design recommendation systems: \\
     1. Collaborative Filtering \
