@@ -3,10 +3,10 @@
 
 ## This project was carried out by talented students under my guidance (Saifali Gulamabbas Patel, Rinaldi James Michael and	Syed Muddassir Ahmed)
 
-A Recommender System is the most profitable solution for an organization that caters to a number of users having a number of options. As the name suggests, the system uses algorithms to recommend content (videos, advertisements, news etc.) to an individual based on his/her usage. There are several ways to design recommendation systems: 
-    1. Collaborative Filtering
-    2. Content based method
-    3. Association Mining
+A Recommender System is the most profitable solution for an organization that caters to a number of users having a number of options. As the name suggests, the system uses algorithms to recommend content (videos, advertisements, news etc.) to an individual based on his/her usage. There are several ways to design recommendation systems: \ 
+    1. Collaborative Filtering \
+    2. Content based method \
+    3. Association Mining \
 Collaborative Filtering uses past user interaction data to suggest new items. The interactions can be placed in a “user-items interaction matrix”. Collaborative Filtering can further be divided into Memory based and Model Based. The advantage of this filtering is that the acquired user and item data is enough to predict similar items to recommend to similar users. Since it only considers past data based on interactions between users and items to make suggestions, it is subjected to the cold start problems that makes it unable to make recommendations to new users or suggest new items to existing users.    
 
 Content based method utilizes more information about user and items to create a model that learns how a user having certain features will prefer a particular item having a set of characteristics over other items. Content based method uses available information about user and items like features of a user or characteristic or content of an item that explain the interaction between the user and item. The method doesn’t suffer from poor recommendations due to insufficient beginner data.
@@ -36,15 +36,15 @@ Rating per movie.
 
 ## Method for recommendation
 We first load our Netflix user data then we perform some preprocessing operations to clean our data. We further proceed to explore the data and uncover some interesting results like release year of movies , no of ratings per movies and per user before diving deeper .
-We have used four techniques for recommending 
-    • Mean Rating
+We have used four techniques for recommending \
+    • Mean Rating \
 We can calculate the mean rating for the movies which can be used to recommend movies to all the users even when no past information about them is present.
 Drawback of this method is movies with few ratings can have a higher mean.
-This can be further extended in such a way that a rating r given by a user u would be close to the average of the ratings given by n users that are similar to u.
-    • Weighted Mean Rating
+This can be further extended in such a way that a rating r given by a user u would be close to the average of the ratings given by n users that are similar to u. \
+    • Weighted Mean Rating \
 We can assign weights to the movies so as to include the factor of number of votes, this addresses the drawback of mean rating.
 This can further be extended in such a way that users who are more similar to the target user, their ratings would be considered more than other users who are less similar.
-    • Cosine User-User Similarity
+    • Cosine User-User Similarity \
 The ideas discussed above can now be used for user-specific recommendation, the S or the similarity factor that is used to group similar users together can we found out using this method.
 The implementation of this for user having index 0 and finding 10 similar users to him and recommending 10 top movies to him.
 
