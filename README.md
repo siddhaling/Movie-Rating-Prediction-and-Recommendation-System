@@ -1,5 +1,8 @@
 # Movie-Rating-Prediction-and-Recommendation-System
-Movie-Rating-Prediction-and-Recommendation-System
+
+
+## This project was carried out by talented students under my guidance (Saifali Gulamabbas Patel, Rinaldi James Michael and	Syed Muddassir Ahmed)
+
 A Recommender System is the most profitable solution for an organization that caters to a number of users having a number of options. As the name suggests, the system uses algorithms to recommend content (videos, advertisements, news etc.) to an individual based on his/her usage. There are several ways to design recommendation systems: 
     1. Collaborative Filtering
     2. Content based method
@@ -15,35 +18,21 @@ The dataset is provided by Netflix as a part of the Netflix prize data competiti
 https://www.kaggle.com/netflix-inc/netflix-prize-data#combined_data_1.txt
 
 Year of movies release.
-
-1
+![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/1.jpg)
 
 Movie rating distribution.
 
-2
+![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/2.jpg)
 
 Movie rating per day.
-3
+
+![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/3.jpg)
 
 Rating per movie.
 
-4
+![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/4.jpg)
 
-Ranking of top 10 movies.
 
-5
-
-Ranking based on weighted ratings.
-
-6
-
-Top 10 recommendation to the user
-
-7
-
-Comparision of the performance.
-
-8
 
 ## Method for recommendation
 We first load our Netflix user data then we perform some preprocessing operations to clean our data. We further proceed to explore the data and uncover some interesting results like release year of movies , no of ratings per movies and per user before diving deeper .
@@ -64,19 +53,33 @@ We use Cross-Validation techniques along with the techniques to validate our mod
 First we will look at the results obtained from exploring the data initially :
 Release Year of movies More number of movies released towards 2000’s.The declining curve after 2000 is because of incomplete data.
 
-9
+![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/9.jpg)
 
 We now move onto look at the results after applying the algo’s. After applying Mean-Rating we get the following result, Root Mean Square Error as = 0.9938
 
 Ranking of top 10 movies
 
-10
+![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/10.jpg)
+
 If we use Weighted-Mean Rating we get, RMSE as 0.9947 this is higher than the Mean rating as this represents a clearer picture because it considers the number of ratings too.
 
-11
+![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/11.jpg)
 
 Cosine User-User Similarity gives us We take the first user and find 10 similar users who are similar to him and based on that data we find top 10 movies that he would like.
 After computing this we get RMSE of 1.3357
 
-12
+![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/12.jpg)
 
+ The cross validation was performed on a sample of the data set.
+ 
+ ![alt text](https://github.com/siddhaling/Movie-Rating-Prediction-and-Recommendation-System/blob/main/images/13.jpg)
+ 
+ # Further Projects and Contact
+www.researchreader.com
+
+https://medium.com/@dr.siddhaling
+
+Dr. Siddhaling Urolagin,\
+PhD, Post-Doc, Machine Learning and Data Science Expert,\
+Passionate Researcher, Deep Learning, Machine Learning and applications,\
+dr.siddhaling@gmail.com
